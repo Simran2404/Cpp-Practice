@@ -13,9 +13,9 @@ int main()
     cout << "Enter the sum of money: ";
     cin >> money;
 
-    temp = money/100; 
-    money = money - (temp*100);
-    cout << temp << '\n';
+    temp = money/100; //to obtain the number of 100 rupee notes possible 
+    money = money - (temp*100); //to subtract the number of 100 rupee notes from the total 
+    cout << temp << '\n'; //temp is the number of notes in a particular denomination 
 
     temp = money/50; 
     money = money - (temp*50);
